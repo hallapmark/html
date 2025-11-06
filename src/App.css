@@ -1,0 +1,63 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+
+body {
+  background-color: beige;
+}
+
+button {
+  background-color: green;
+  color: hsl(0, 4%, 74%);
+}
+
+button:hover {
+  height: 120px;
+}
+
+button:active {
+  cursor: grab;
+}
+
+.sinine {
+  color: blue;
+}
+
+.sinine:hover {
+  font-size: 24px;
+}
+
+.roheline {
+  color: green;
+  font-weight: 700;
+  border: 2px solid red;
+}
+
+.roheline:hover {
+  border-color: brown;
+}
+
+.paremkleepuv {
+  width: 400px;
+  height: 240px;
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+  /* margin-bottom: 20px; */
+}
+
+.paremkleepuv:hover {
+  border-radius: 20px;
+}
+
+.paremkleepuv:active {
+  opacity: 0.6;
+}
+
+iframe {
+  margin-top: 20px;
+}
+
