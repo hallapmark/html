@@ -1,0 +1,8 @@
+.raamatudButton {
+  background-color: green;
+  color: hsl(0, 4%, 74%);
+}
+
+.raamatudButton:hover {
+  height: 120px;
+}
