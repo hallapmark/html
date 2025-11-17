@@ -10,6 +10,9 @@ function Home() {
       <Link to="/books">
         <button className={styles.raamatudButton}>Raamatud</button>
       </Link>
+      <Link to="/numbers">
+        <button className={styles.raamatudButton}>Numbrid</button>
+      </Link>
       <p className="sinine">
         <em>Siin on sinine tekst.</em>
       </p>
